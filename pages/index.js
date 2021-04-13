@@ -1,14 +1,15 @@
-import Head from 'next/head'
-import { Header } from '../components/header'
-import { Top } from '../components/Top'
-import styles from '../styles/Home.module.css'
+import { Header } from "../components/header";
+import { Profile } from "../components/Profile";
+import { Top } from "../components/Top";
+import { Works } from "../components/works";
 
 export default function Home() {
   return (
-<div>
-  <Header />
-  <Top />
-</div>
-
-  )
+    <div>
+      <Header />
+      <Top />
+      <Profile />
+      <Works />
+    </div>
+  );
 }
