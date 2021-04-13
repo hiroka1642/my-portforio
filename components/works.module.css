@@ -1,0 +1,10 @@
+.works h1 {
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  margin: 30px;
+}
+
+.works img {
+  width: 300px;
+}
