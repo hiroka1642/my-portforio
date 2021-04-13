@@ -20,7 +20,7 @@ export  function Header() {
       <ul className={classes.container}>
         {LIST.map((list)=>{
           return(
-            <li className={classes.list}><a>{list.link}</a></li>
+            <li key={list.link} className={classes.list}><a>{list.link}</a></li>
           )
         })}
       </ul>
